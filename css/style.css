@@ -6,6 +6,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     line-height: 24px;
+   
 }
 
 a {
@@ -175,4 +176,49 @@ a {
 .specialised__item-text {
     font-size: 15px;
     line-height: 24px;
+}
+
+.experienced {
+    background-color: #F4F9FD;
+    padding-top: 64px;
+}
+.experienced__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.experienced__offer {
+    max-width: 455px;
+}
+.experienced__offer-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    background-image: url(../img/bgcloud.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 68px 0 15px 48px;
+}
+.experienced__offer-text {
+    padding-left: 48px;
+    color: #272727;
+    font-size: 15px;
+    line-height: 24px;
+}
+.experienced__image {
+    margin-top: -64px;
+    max-height: 516px;
+    margin: 12px 0;
+}
+
+.experienced__offer--right {
+    max-width: 460px;
+    max-height: 353px;
+    margin-top: 76px;
+}
+
+.experienced__offer-title--right {
+    background-image: url(../img/bgcloud2.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 68px 0 15px 48px;
 }
